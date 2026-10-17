@@ -3,7 +3,7 @@
 function tinhTong(danhSach, loai) {
   return danhSach
     .filter(function (g) { return g.loai === loai; })
-    .reduce(function (tong, g) { return tong + g.soTien; }, '');
+    .reduce(function (tong, g) { return tong + g.soTien; }, 0);
 }
 
 function locTheoLoai(danhSach, loai) {
