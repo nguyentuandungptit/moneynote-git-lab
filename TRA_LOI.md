@@ -52,7 +52,7 @@ Giá trị khởi tạo là chuỗi rỗng `''` thay vì số `0`. Vì vậy ph�
 
 ## Phần 6. Làm lại nền nhánh (`rebase`)
 
-**Câu 11.** Sau rebase, mã commit **không còn giống mã cũ**. Rebase không di chuyển nguyên commit mà tạo ra commit mới, cùng nội dung nhưng có **commit cha mới** (nền mới), nên mã hash thay đổi. Không nên rebase nhánh mà người khác đã kéo về máy vì rebase viết lại lịch sử: máy của họ vẫn giữ các commit cũ, khi pull sẽ bị phân nhánh, phải merge/reset hoặc force-push, dễ sinh commit trùng và mất công việc.
+**Câu 11.** Sau rebase, mã commit **không còn giống mã cũ**: commit "Thêm hàm xuất CSV" đổi từ `6650471` thành `f238bcd` (commit tài liệu CSV cũng đổi theo). Rebase không di chuyển nguyên commit mà tạo ra commit mới, cùng nội dung nhưng có **commit cha mới** (nền mới), nên mã hash thay đổi. Không nên rebase nhánh mà người khác đã kéo về máy vì rebase viết lại lịch sử: máy của họ vẫn giữ các commit cũ, khi pull sẽ bị phân nhánh, phải merge/reset hoặc force-push, dễ sinh commit trùng và mất công việc.
 
 ## Phần 7. Làm việc với GitHub
 
