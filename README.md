@@ -20,3 +20,13 @@ kiem-tra.js       Kiểm tra nhanh hàm tính tổng: node kiem-tra.js
 - Trần Lan
 - Lê Hùng
 - Nguyễn Tuấn Dũng
+
+## Cách kiểm tra
+
+Chạy lệnh sau trong thư mục repo:
+
+```bash
+node kiem-tra.js
+```
+
+Kết quả đúng phải in ra `ĐẠT: tổng thu = 150000, tổng chi = 30000`.
