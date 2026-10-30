@@ -29,5 +29,3 @@ h1 { color: var(--primary); }
 #oTimKiem { width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 8px; margin-bottom: 12px; }
 
 footer { text-align: center; color: #6B7280; font-size: 13px; padding: 24px 0; }
-
-.debug { position: fixed; top: 0; right: 0; background: red; color: #fff; padding: 4px 8px; }
